@@ -1,0 +1,307 @@
+/*
+*************** TYPOGRAPHY SYSTEM ********************
+## Font Sizes (px) ##
+
+Heading Primary (Section) = 90px 400w
+Heading Secondary = 45px 400w
+Heading Tertiary = 24px 400w
+Heading Fourth = 38px 700w
+
+Big Text = 80px 400w  100(lh)
+Small Text = 50px 400w 69(lh)
+Paragraph = 16px 400w 24(lh)
+
+Tag = 16px 500w
+Icons = 16px 
+
+### Font Weights ##
+Light: 300
+Regular: 400
+Medium: 500
+Bold: 700
+
+
+*************** COLOR SYSTEM ********************
+## Primary Color 
+#46CCD3
+#F4365A
+
+## Secondary Color
+#EB8683
+#28848e
+#96B5F9
+#F4B776
+
+## Text
+#0B0033
+#275259
+
+
+/************ Universal ***********/
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	line-height: 1;
+	background-color: #f5f5f5;
+	color: #275259;
+}
+
+/************ Links - Buttons ***********/
+
+.card-link:link,
+.card-link:visited,
+.card-link:hover,
+.card-link:active {
+	text-decoration: none;
+	color: #275259;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+	cursor: pointer;
+	text-decoration: none;
+	background: none;
+	font-family: inherit;
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 2.1rem;
+	text-align: center;
+	text-transform: lowercase;
+	color: #46ccd3;
+	border: 2px solid #46ccd3;
+	border-radius: 50rem;
+	padding: 1.2rem 4.8rem;
+	transition: ease-out 0.3s;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn:hover,
+.btn:active {
+	color: #fff;
+	background-color: #28848e;
+	border-color: currentColor;
+}
+
+.btn-close {
+	background: none;
+	cursor: pointer;
+	border: none;
+	background-color: #46ccd3;
+	color: #fff;
+	padding: 2rem;
+	border-radius: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.3s;
+}
+
+.icon-close {
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+
+.btn-close:hover {
+	background-color: #f4365a;
+}
+
+.btn-arrow,
+.btn-arrow:link,
+.btn-arrow:visited {
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	font-size: 3.6rem;
+	padding: 1.6rem;
+	border-radius: 100%;
+	color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.3s;
+}
+
+.arrow--down {
+	background-color: #46ccd3;
+}
+
+.arrow--down:hover,
+.arrow--down:active {
+	background-color: #38a3a9;
+}
+
+.arrow--right,
+.arrow--left {
+	background-color: #f4365a;
+}
+
+.arrow--right:hover,
+.arrow--left:hover,
+.arrow--left:active,
+.arrow--right:active {
+	background-color: #96b5f9;
+}
+
+/******* ICONS - TAGS *****/
+.tag-container {
+	display: inline-block;
+	margin-right: 1.6rem;
+	margin-bottom: 4.8rem;
+}
+
+.tag-container:last-child {
+	margin-right: 0;
+}
+
+.tag-text {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+.tag-icon {
+	color: #f4365a;
+	margin-right: 0.6rem;
+	font-size: 2.2rem;
+	font-weight: 500;
+}
+
+.duration-container {
+	display: inline-block;
+}
+
+/******* LIST *****/
+.list {
+	list-style: none;
+	display: flex;
+}
+
+.list--v {
+	flex-direction: column;
+	gap: 4.8rem;
+}
+
+/*******COMPONENETS*****/
+.container {
+	max-width: 140rem;
+	padding: 0 4rem;
+	margin: 0 auto;
+}
+
+.centerizer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/******HELPER CLASSES*****/
+.hidden {
+	display: none;
+}
+
+strong {
+	font-weight: 500;
+}
+
+.margin-right-sm {
+	margin-right: 1.6rem;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 2.4rem !important;
+}
+
+.margin-bottom-md {
+	margin-bottom: 4.8rem !important;
+}
+
+/* TEXT*/
+
+.heading-primary {
+	color: #46ccd3;
+	font-size: 9rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 7.2rem;
+	text-transform: uppercase;
+}
+
+.heading-secondary {
+	color: #46ccd3;
+	font-size: 4.5rem;
+	font-weight: 400;
+	margin-bottom: 7.2rem;
+}
+
+.heading-tertiary {
+	color: #46ccd3;
+	font-size: 2.4rem;
+	font-weight: 400;
+	margin-bottom: 1.6rem;
+}
+
+.heading-fourth {
+	color: #96b5f9;
+	font-size: 3.8rem;
+	font-weight: 700;
+	margin-bottom: 6.4rem;
+}
+
+.text-big {
+	color: #275259;
+	font-size: 8rem;
+	font-weight: 400;
+	line-height: 11rem;
+	text-align: center;
+	text-transform: lowercase;
+
+	margin-bottom: 3.6rem;
+}
+
+strong {
+	color: #f4365a;
+	font-weight: 400;
+}
+
+.text-small {
+	font-size: 5rem;
+	font-weight: 400;
+	line-height: 6.9rem;
+}
+
+.text-paragraph {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+.text-center {
+	text-align: center;
+}
+/******** Sticky Navbar ******/
+
+.footer-copyright {
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-bottom: 20rem;
+}

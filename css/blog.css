@@ -1,0 +1,65 @@
+.page-blog {
+	margin-top: 16rem;
+	margin-bottom: 9.6rem;
+}
+
+.topic-list {
+	list-style: none;
+	display: flex;
+	gap: 4.8rem;
+	margin-bottom: 12.8rem;
+}
+
+.topic-link:link,
+.topic-link:visited {
+	text-decoration: none;
+	font-size: 2.4rem;
+	color: #46ccd3;
+	border-bottom: 1px solid transparent;
+}
+
+.topic-link:hover,
+.topic-link:active {
+	color: #f4365a;
+}
+
+.topic-active:link,
+.topic-active:visited,
+.topic-active:active {
+	color: #f4365a;
+	border-bottom: 1px solid #f4365a;
+}
+
+.heading-form {
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 3.2rem;
+}
+
+.section-form {
+	margin-bottom: 6.4rem;
+}
+
+.blog-form {
+	display: flex;
+	align-items: center;
+	gap: 3.2rem;
+	margin-bottom: 2.4rem;
+}
+
+.user-mail {
+	border: 2px solid #f4365a;
+	border-radius: 60px;
+	background: none;
+	width: 100%;
+	padding: 3rem;
+	font-size: 1.6rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.9rem;
+}
+
+.user-mail:focus {
+	border-color: #fa9bad;
+	outline: #fa9bad;
+}

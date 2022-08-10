@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Apple Blue Sea Green is a communication agency that will help your company run better campaigns."
+		/>
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Phosphor Icon -->
+		<script src="https://unpkg.com/phosphor-icons"></script>
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/blog.css" />
+		<link rel="icon" href="./images/logo-icon.png" />
+
+		<!-- Apple Scrolling Optimization -->
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+
+		<!-- JavaScript Files -->
+		<script defer src="./script/script.js"></script>
+
+		<title>Apple Blue Sea Green</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="/" class="logo-link">
+				<img
+					src="./images/logo-page.png"
+					alt="Apple Blue Sea Green Logo"
+					class="logo-img"
+				/>
+			</a>
+			<div class="main-nav-visibility">
+				<div class="main-nav-container">
+					<a href="/" class="logo-link">
+						<img
+							src="./images/logo-page.png"
+							alt="Apple Blue Sea Green Logo"
+							class="logo-img"
+						/>
+					</a>
+					<div class="main-nav-action">
+						<button class="btn-close" id="btn-close">
+							<i class="ph-x icon-close"></i>
+						</button>
+					</div>
+					<nav class="main-nav">
+						<ul class="main-nav-list list list--v">
+							<li><a class="main-nav-link" href="about.html">About</a></li>
+							<li>
+								<a class="main-nav-link" href="services.html">Services</a>
+							</li>
+							<li>
+								<a class="main-nav-link" href="projects.html">Projects</a>
+							</li>
+							<li><a class="main-nav-link" href="blog.html">Blog</a></li>
+							<li>
+								<a class="main-nav-link nav-cta" href="contact.html"
+									>Contact Us</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<button class="btn" id="btn-menu">Menu</button>
+		</header>
+		<main>
+			<section class="section-hero">
+				<div class="hero-container">
+					<p class="text-big">
+						We will <br />
+						communicate your <br />
+						purpose
+					</p>
+					<img
+						class="hero-img"
+						src="./images/hero.png"
+						alt="A desk with notebook and glasses on"
+					/>
+					<a href="#section-about" class="btn-arrow arrow--down">
+						<i class="ph-arrow-down"></i>
+					</a>
+				</div>
+			</section>
+
+			<section class="section-about" id="section-about">
+				<p class="text-big">
+					We'we been <strong>creating</strong> <br />
+					campaigns that <strong>inspire</strong> <br />
+					and <strong>stimulate</strong> <br />
+					social change
+				</p>
+				<div class="centerizer">
+					<a href="about.html" class="btn">About</a>
+				</div>
+			</section>
+
+			<section class="section-projects" id="section-projects">
+				<div class="container">
+					<h1 class="heading-primary">Projects</h1>
+					<div class="project-container">
+						<a class="project-text-container" href="project-detail.html">
+							<h2 class="heading-secondary">A Brand New Path For Cascade</h2>
+							<div class="tag-container">
+								<p class="tag-text centerizer">
+									<i class="ph-tag-simple tag-icon"></i>
+									Creative Films
+								</p>
+							</div>
+							<p class="project-text text-paragraph">
+								Cascade Wellness Resort came to us as they were looking for a
+								new direction. The brand had been bought recently and from then
+								until 2019, it underwent a thorough renovation of its
+								facilities. The brand had grown organically and unstructured,
+								building a loyal customer base upon a luxury hospitality service
+								and top-class location. But the time came when the resort’s
+								administration felt the need to rethink the brand’s positioning.
+							</p>
+						</a>
+						<div class="project-img-container">
+							<img
+								class="project-img"
+								src="./images/project/project_1.png"
+								alt="A hand holds camera on blue background"
+							/>
+						</div>
+						<button class="btn-arrow arrow--left project-previous-btn hidden">
+							<i class="ph-arrow-left"></i>
+						</button>
+						<button class="btn-arrow arrow--right project-next-btn">
+							<i class="ph-arrow-right"></i>
+						</button>
+					</div>
+					<div class="project-actions">
+						<ul class="project-pagination">
+							<li>
+								<button href="#" class="project-btn project--active">
+									&nbsp;
+								</button>
+							</li>
+							<li><button href="#" class="project-btn">&nbsp;</button></li>
+							<li><button href="#" class="project-btn">&nbsp;</button></li>
+						</ul>
+						<a href="projects.html" class="btn">More Projects</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-blog">
+				<div class="container">
+					<h1 class="heading-primary">Blog</h1>
+					<a href="blog-detail.html" class="card-link">
+						<div class="blog-latest">
+							<img
+								src="./images/blog/blog_1.png"
+								alt="Sticky notes on wall"
+								class="latest-img"
+							/>
+							<div class="latest-text-container">
+								<h2 class="heading-secondary">
+									Marketing Optimization: How-To And Tools
+								</h2>
+								<div class="blog-description">
+									<div class="tag-container">
+										<p class="tag-text centerizer">
+											<i class="ph-tag-simple tag-icon"></i>
+											Creative Films
+										</p>
+									</div>
+									<div class="duration-container">
+										<p class="tag-text centerizer">
+											<i class="ph-timer tag-icon"></i>
+											Creative Films
+										</p>
+									</div>
+								</div>
+								<p class="blog-text text-paragraph">
+									If you’re serious about your business’s success, you know you
+									need to invest time and effort in marketing. After launching
+									marketing campaigns, it’s important to track that they’re
+									working—and working well. There are many ways to reach your
+									target market and ensure you’re making the impact you want.
+								</p>
+							</div>
+						</div>
+					</a>
+
+					<div class="blog-others">
+						<figure class="blog-card">
+							<a href="blog-detail.html" class="card-link">
+								<header>
+									<img
+										src="./images/blog/blog_2.png"
+										alt="Writing on paper"
+										class="blog-img"
+									/>
+									<div class="blog-description">
+										<div class="tag-container">
+											<p class="tag-text centerizer">
+												<i class="ph-tag-simple tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+										<div class="duration-container">
+											<p class="tag-text centerizer">
+												<i class="ph-timer tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+									</div>
+								</header>
+								<div class="blog-text">
+									<h3 class="heading-tertiary">
+										Comment: How to create your own luck
+									</h3>
+									<p class="blog-excerpt text-paragraph">
+										Christian Busch explains how harnessing moments of
+										serendipity can lead to bigger and better business
+										opportunities.
+									</p>
+								</div>
+							</a>
+						</figure>
+						<figure class="blog-card">
+							<a href="blog-detail.html" class="card-link">
+								<header>
+									<img
+										src="./images/blog/blog_3.png"
+										alt="Writing on paper"
+										class="blog-img"
+									/>
+									<div class="blog-description">
+										<div class="tag-container">
+											<p class="tag-text centerizer">
+												<i class="ph-tag-simple tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+										<div class="duration-container">
+											<p class="tag-text centerizer">
+												<i class="ph-timer tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+									</div>
+								</header>
+								<div class="blog-text">
+									<h3 class="heading-tertiary">
+										Comment: How to create your own luck
+									</h3>
+									<p class="blog-excerpt text-paragraph">
+										Christian Busch explains how harnessing moments of
+										serendipity can lead to bigger and better business
+										opportunities.
+									</p>
+								</div>
+							</a>
+						</figure>
+						<figure class="blog-card">
+							<a href="blog-detail.html" class="card-link">
+								<header>
+									<img
+										src="./images/blog/blog_4.png"
+										alt="Writing on paper"
+										class="blog-img"
+									/>
+									<div class="blog-description">
+										<div class="tag-container">
+											<p class="tag-text centerizer">
+												<i class="ph-tag-simple tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+										<div class="duration-container">
+											<p class="tag-text centerizer">
+												<i class="ph-timer tag-icon"></i>
+												Creative Films
+											</p>
+										</div>
+									</div>
+								</header>
+								<div class="blog-text">
+									<h3 class="heading-tertiary">
+										Comment: How to create your own luck
+									</h3>
+									<p class="blog-excerpt text-paragraph">
+										Christian Busch explains how harnessing moments of
+										serendipity can lead to bigger and better business
+										opportunities.
+									</p>
+								</div>
+							</a>
+						</figure>
+					</div>
+					<div class="centerizer">
+						<a href="blog.html" class="btn">More Articles</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<a href="contact.html" class="footer-title">
+					Get In Touch
+					<i class="ph-arrow-down footer-icon"></i>
+				</a>
+				<div class="footer-container">
+					<div class="footer-info">
+						<a href="mailto:info@appleblueseagreen.com" class="footer-cta"
+							>info@appleblueseagreen.com</a
+						>
+						<address class="footer-address">
+							<p>Based in Belgium, Av. Brugmanm 63, 1190 Forest</p>
+						</address>
+						<a href="#" class="link footer-logo">
+							<img
+								src="./images/logo-page.png"
+								alt="Apple Blue Sea Green Logo"
+								class="logo-img"
+							/>
+						</a>
+					</div>
+					<div class="footer-links">
+						<nav class="footer-nav">
+							<p class="footer-nav-title">Menu</p>
+							<ul class="footer-nav-list">
+								<li>
+									<a href="about.html" class="footer-nav-link">About Us</a>
+								</li>
+								<li>
+									<a href="services.html" class="footer-nav-link">Services</a>
+								</li>
+								<li>
+									<a href="projects.html" class="footer-nav-link">Projects</a>
+								</li>
+								<li><a href="blog.html" class="footer-nav-link">Blog</a></li>
+								<li>
+									<a href="contact.html" class="footer-nav-link">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer-links">
+						<nav class="footer-nav">
+							<p class="footer-nav-title">Social</p>
+							<ul class="footer-nav-list">
+								<li>
+									<a href="#" class="footer-nav-link"
+										><i class="ph-instagram-logo tag-icon"></i>Instagram</a
+									>
+								</li>
+								<li>
+									<a href="#" class="footer-nav-link"
+										><i class="ph-twitter-logo tag-icon"></i>Twitter</a
+									>
+								</li>
+								<li>
+									<a href="#" class="footer-nav-link"
+										><i class="ph-linkedin-logo tag-icon"></i>Linkedin</a
+									>
+								</li>
+								<li>
+									<a href="#" class="footer-nav-link"
+										><i class="ph-facebook-logo tag-icon"></i>Facebook</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<p class="footer-copyright">
+					&copy; Copyright Savion Ray 2022 | All Rights Reserved | Privacy
+					Notice
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

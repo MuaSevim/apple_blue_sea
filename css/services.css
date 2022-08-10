@@ -1,0 +1,91 @@
+.section-features {
+	margin-top: 16rem;
+}
+
+.heading-services {
+	margin-bottom: 9.6rem;
+}
+
+.feature-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 12.8rem;
+	row-gap: 16rem;
+}
+
+.feature-box {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+}
+
+.feature-icon {
+	color: #46ccd3;
+	font-size: 6.4rem;
+	font-weight: 700;
+}
+
+.feature-title {
+	font-size: 4.4rem;
+	font-weight: 400;
+	line-height: 5.4rem;
+}
+
+.feature-description {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+.feature-list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+}
+
+.feature-item {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	font-size: 2.2rem;
+}
+
+.feature-check {
+	display: inline-block;
+	color: #f4365a;
+}
+
+.arrow-services {
+	margin: 12.8rem 0;
+}
+
+.services-text {
+	font-size: 5rem;
+	line-height: 7rem;
+	margin-bottom: 12.8rem;
+	text-align: center;
+}
+
+.method-container {
+	display: grid;
+	grid-template-columns: 40fr 60fr;
+	justify-items: flex-start;
+	align-items: center;
+
+	margin-bottom: 18rem;
+}
+
+.method-text {
+	font-size: 4.4rem;
+	text-transform: uppercase;
+	line-height: 5.4rem;
+}
+
+.method-text--strategy {
+	color: #f4365a;
+	margin-bottom: 11rem;
+}
+
+.method-text--execution {
+	color: #46ccd3;
+}
